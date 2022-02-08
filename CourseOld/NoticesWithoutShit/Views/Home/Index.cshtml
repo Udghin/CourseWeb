@@ -1,0 +1,93 @@
+﻿@using Microsoft.AspNetCore.Hosting;
+@inject IWebHostEnvironment env;
+@{
+    ViewData["Title"] = "Первая страница";
+}
+
+@using Services.Abstractions.Dto.Notice;
+@model List<NoticeDto>
+
+<div class="main-frame">
+    <div class="index-page">
+        <div class="news-block">
+            <div style="text-align: center;display:flex; justify-content: space-around;">
+                <div style="width: 400px; background-color: white; border-bottom-left-radius: 15px; border-bottom-right-radius: 15px; ">
+                    <br />
+                    <p style="text-align: center; font-weight: bold;">
+                        Супер новости Супер сервиса
+                    </p>
+
+                </div>
+            </div>
+
+            <br />
+            <div class="news">
+                <p style="font-weight: bold; text-align: center">Опубликована версия сервиса 0.87</p>
+                <hr />
+                <p style="text-align: justify;">
+                    В этой версии приложения намного улучшен интерфейс. Налажена производительность, которая соответсвует нормам наступившего 2022го года.
+                    Наша команда разработчиков ежечасно трудится над улучшнением отзывчивости и удобоства вашего, всем любимого сервиса - "Супер сервис заметок без х$*и"
+                </p>
+                <p style="text-align: right">Дата: 02.01.2022</p>
+            </div>
+            <div class="news">
+                <p style="font-weight: bold; text-align: center">Были сложности с работой сервиса</p>
+                <hr />
+                <p style="text-align: justify;">
+                    В связи с имеющимися проблемами после обучения азам, так сказать, программирования в среде ASP.Net Core было выяснено, что наш единественный специалист не в состоянии сходу взять
+                    и сделать требуемое для курсовой работы приложение!
+                </p>
+                <p style="text-align: justify;">
+                    Посидев и понервничав, день другой... было проштудированно куча выполненных в своё время ДЗ, которые показали, что цель применения тех или иных приемов и технологий - абсолютно не ясна
+                    а ответов на кучу вопросов просто нет, так как многие аспекты в принципе не обсуждались и не раскрывались.
+                </p>
+                <p>Наш специалист, попытался вникнуть в:</p>
+                <ul>
+                    <li>Принципы работы с БД</li>
+                    <li>Onion архитектуру</li>
+                    <li>Взаимодействие модель-представление</li>
+                    <li>Api</li>
+                </ul>
+                <p style="text-align: right">Дата: 31.12.2021</p>
+            </div>
+            <div class="news">
+                <p style="font-weight: bold; text-align: center">Мы наконец-то запустились!</p>
+                <hr />
+                <p style="text-align: center"><img src="https://anisola-mebel.ru/u/2015/07/11.jpg" /></p>
+                <p style="text-align: right">Дата: 29.12.2021</p>
+            </div>
+            <div></div>
+        </div>
+        <div class="last-publics">
+            <br />
+            <p style="text-align: center; font-weight: bold">Последние публичные заметки</p>
+            <hr />
+            @if (Model.Count > 0)
+            {
+            @foreach (var not in Model)
+            {
+                <div class="public-notice">
+                    @if (not.Text.Length > 67)
+                    {
+                        string text = not.Text.Substring(0, 67) + "...";
+                        <p style="text-align:center;font-weight: 600;">@not.Name</p> @text
+
+                    }
+                    else
+                    {
+                        <p style="text-align:center;font-weight: 600;">@not.Name</p> @not.Text
+                    }
+                    <a href="#" onclick="document.getElementById('@not.Id').submit(); return false;"> подробнее...</a>
+                    <br />
+                    <p style="text-align:right;">Автор: @not.UserOwner</p>
+                    <form method="post" id="@not.Id" enctype="multipart/form-data">
+                        <input type="text" hidden name="id" class="form-control" value="@not.Id">
+                    </form>
+                </div>
+            }
+            }
+        </div>
+
+    </div>
+
+</div>

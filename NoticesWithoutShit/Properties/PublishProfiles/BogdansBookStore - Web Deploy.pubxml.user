@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Этот файл используется процессом публикации или упаковки вашего веб-проекта. Можно настроить поведение этого процесса,
+изменив этот файл MSBuild. Подробности см. на странице https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAv0dLMlUpP02vi0vSYRpDVwAAAAACAAAAAAAQZgAAAAEAACAAAABQow/Js3RjvH2KQ9tIGXAf1nx+ey4NTi8lvHv6b7C3RQAAAAAOgAAAAAIAACAAAABZE9SYICuo1nbQe4V2XvjN8+8mNWured0SiFB0JVLBE4AAAAAaLlt9KX+hT6Y0zNCufsbDyOJiAWdO0EPvUTlUL5Y8SFLIpaixq85t4l8Sq39yv660dB1rjUHdIKElIiXhXWxpa+Oj0OlY42YN9bZZvJkpx22jpNvX8zxQ4s3JIEUMXzqn07dzFOZD+H59z4klAl6zQfBRMfoVrvvYIietUS93HEAAAADXBAI8br7de39phxQbtRLnHM0Fw/GROtUFu7Nuwc7fgxEWqx00HIOV9xciAKewNWu0l/X84iz4E8Pd6h/Jnhh9</EncryptedPassword>
+    <History>True|2021-12-06T18:41:09.4389417Z;True|2021-12-06T20:39:46.9577581+02:00;True|2021-12-06T20:28:06.5794176+02:00;True|2021-12-06T20:01:55.0533030+02:00;True|2021-12-06T19:58:44.9817098+02:00;True|2021-12-06T19:55:05.7039206+02:00;True|2021-12-06T19:50:20.2049848+02:00;</History>
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="DefaultConnection1">
+      <Value>Data Source=tcp:my-itstep-server.database.windows.net,1433%3bInitial Catalog=demoDB%3bUser Id=rootadmin%40my-itstep-server%3bPassword=Itstep1234!</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+</Project>

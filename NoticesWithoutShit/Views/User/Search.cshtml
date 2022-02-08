@@ -1,0 +1,162 @@
+﻿
+@using Services.Abstractions.Dto.Notice;
+@model NoticeAndCatsDto
+@{
+    ViewData["Title"] = "Search";
+}
+@{
+    <div class="main-frame">
+        <div class="page-name">
+            <br />
+            <h1 style="text-align: center;">Панель управления заметками!</h1>
+            <p style="text-align:center;">
+                UserID: <span class="userid" id="userid">@Model.UserId</span>&nbsp;
+                <a id="copy-id" class="copy-id" href="#"><img height="20" src="https://img2.freepng.ru/20180712/guv/kisspng-computer-icons-symbol-copying-cut-copy-and-paste-version-5b47e79ec6ab20.0376768415314390068138.jpg" /></a>
+            </p>
+            <div style="text-align:center; display: flex; justify-content: space-around;">
+                <form method="post" enctype="multipart/form-data">
+                    @if (Model.Sort == "sortByDeadline")
+                    {
+                        <input hidden type="text" name="action" value="sortByDeadlineOpposite">
+                    }
+                    else
+                    {
+                        <input hidden type="text" name="action" value="sortByDeadline">
+                    }
+                    <input hidden type="text" name="Search" value="@Model.Search">
+                    <button type="submit" class="btn btn-light">
+                        Сортировать по Дедлайну
+                    </button>
+                </form>
+                <form method="post" enctype="multipart/form-data">
+                    <div style="display: flex;">
+
+                        <input type="text" class="form-control" placeholder="Search..." aria-label="Username" name="Search" value="@Model.Search" aria-describedby="basic-addon1">
+                        <span class="input-group-text" id="basic-addon1">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                                <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+                            </svg>
+                        </span>
+                    </div>
+                </form>
+                <form method="post" enctype="multipart/form-data">
+                    @if (Model.Sort == "sortByDate")
+                    {
+                        <input hidden type="text" name="action" value="sortByDateOpposite">
+                    }
+                    else
+                    {
+                        <input hidden type="text" name="action" value="sortByDate">
+                    }
+                    <input hidden type="text" name="Search" value="@Model.Search">
+                    <button type="submit" class="btn btn-light">
+                        Сортировать по Дате
+                    </button>
+                </form>
+            </div>
+            <br />
+        </div>
+        <div>
+
+            @if (Model.Notices.Count > 0)
+            {
+                <ul>
+                    @if (Model.Sort == "sortByDate")
+                        Model.Notices = Model.Notices.OrderByDescending(n => n.CreatedAt).ToList();
+                    else if (Model.Sort == "sortByDateOpposite")
+                        Model.Notices = Model.Notices.OrderBy(n => n.CreatedAt).ToList();
+                    else if (Model.Sort == "sortByDeadline")
+                        Model.Notices = Model.Notices.OrderBy(n => n.Deadline).ToList();
+                    else if (Model.Sort == "sortByDeadlineOpposite")
+                        Model.Notices.OrderByDescending(n => n.Deadline).ToList();
+
+                    @foreach (var not in Model.Notices)
+                    {
+                        <li>
+                            <p style="font-weight: bold; text-align: center;">@not.Name</p>
+                            <p style="font-weight: 200; text-align: justify; padding-right:40px; ">@not.Text</p>
+                            <p style="text-align: center;">Категория: <b>@not.Category</b> || Создано: @not.CreatedAt.ToString("d") || Дэдлайн: @not.Deadline.ToString("d")</p>
+                        </li>
+                    }
+                </ul>
+            }
+            else
+            {
+                <br />
+                <p style="text-align: center;"><h2 style="text-align: center;">Без х$*и! Ничего такого нема..</h2></p>
+                <br />
+                <p style="text-align: center;"><img width="550" height="460" src="https://vsvarke.com/content/themes/default/images/no_results.png" /></p>
+            }
+        </div>
+    </div>
+
+}
+
+<script>
+    var btn = document.querySelector("#delcat-btn2").onclick = delcat;
+    document.getElementById("delcat-btn").onclick = delcat;
+    function delcat() {
+        alert("delcat");
+    }
+    function delcat2(msg) {
+        alert(btn.name);
+    }
+</script>
+
+<script type="text/javascript">
+    document.getElementById("copy-id").addEventListener("click", function () {
+        copyToClipboard(document.getElementById("userid"));
+    });
+
+
+
+    function copyToClipboard(elem) {
+        // create hidden text element, if it doesn't already exist
+        var targetId = "_hiddenCopyText_";
+        var isInput = elem.tagName === "INPUT" || elem.tagName === "TEXTAREA";
+        var origSelectionStart, origSelectionEnd;
+        if (isInput) {
+            // can just use the original source element for the selection and copy
+            target = elem;
+            origSelectionStart = elem.selectionStart;
+            origSelectionEnd = elem.selectionEnd;
+        } else {
+            // must use a temporary form element for the selection and copy
+            target = document.getElementById(targetId);
+            if (!target) {
+                var target = document.createElement("textarea");
+                target.style.position = "absolute";
+                target.style.left = "-9999px";
+                target.style.top = "0";
+                target.id = targetId;
+                document.body.appendChild(target);
+            }
+            target.textContent = elem.textContent;
+        }
+        // select the content
+        var currentFocus = document.activeElement;
+        target.focus();
+        target.setSelectionRange(0, target.value.length);
+
+        // copy the selection
+        var succeed;
+        try {
+            succeed = document.execCommand("copy");
+        } catch (e) {
+            succeed = false;
+        }
+        // restore original focus
+        if (currentFocus && typeof currentFocus.focus === "function") {
+            currentFocus.focus();
+        }
+
+        if (isInput) {
+            // restore prior selection
+            elem.setSelectionRange(origSelectionStart, origSelectionEnd);
+        } else {
+            // clear temporary content
+            target.textContent = "";
+        }
+        return succeed;
+    }
+</script>

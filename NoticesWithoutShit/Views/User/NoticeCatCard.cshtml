@@ -1,0 +1,19 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@using Services.Abstractions.Dto.Notice;
+@model List<NoticeDto>
+
+<div>
+<div class="noticeCat" style="background-color: @Model[0].CategoryColor">
+    <div style="border-radius: 10px;background-color: white; text-align:center; color: @Model[0].CategoryColor;font-size: 20px; font-weight: bold;margin: 10px;">@Model[0].Category</div>
+    <hr class="hr-washed">
+    @foreach (var notice in Model)
+    {
+        @await Html.PartialAsync("NoticeCard", notice);
+    }
+</div>
+    <div></div>
+</div>

@@ -1,0 +1,30 @@
+D:\STEP\ASP.NET.CORE\MyFinalExamWork\Infrastructure\Persistence\bin\Release\net5.0\Persistence.deps.json
+D:\STEP\ASP.NET.CORE\MyFinalExamWork\Infrastructure\Persistence\bin\Release\net5.0\Persistence.dll
+D:\STEP\ASP.NET.CORE\MyFinalExamWork\Infrastructure\Persistence\bin\Release\net5.0\ref\Persistence.dll
+D:\STEP\ASP.NET.CORE\MyFinalExamWork\Infrastructure\Persistence\bin\Release\net5.0\Persistence.pdb
+D:\STEP\ASP.NET.CORE\MyFinalExamWork\Infrastructure\Persistence\bin\Release\net5.0\Domain.dll
+D:\STEP\ASP.NET.CORE\MyFinalExamWork\Infrastructure\Persistence\bin\Release\net5.0\Domain.pdb
+D:\STEP\ASP.NET.CORE\MyFinalExamWork\Infrastructure\Persistence\obj\Release\net5.0\Persistence.csproj.AssemblyReference.cache
+D:\STEP\ASP.NET.CORE\MyFinalExamWork\Infrastructure\Persistence\obj\Release\net5.0\Persistence.GeneratedMSBuildEditorConfig.editorconfig
+D:\STEP\ASP.NET.CORE\MyFinalExamWork\Infrastructure\Persistence\obj\Release\net5.0\Persistence.AssemblyInfoInputs.cache
+D:\STEP\ASP.NET.CORE\MyFinalExamWork\Infrastructure\Persistence\obj\Release\net5.0\Persistence.AssemblyInfo.cs
+D:\STEP\ASP.NET.CORE\MyFinalExamWork\Infrastructure\Persistence\obj\Release\net5.0\Persistence.csproj.CoreCompileInputs.cache
+D:\STEP\ASP.NET.CORE\MyFinalExamWork\Infrastructure\Persistence\obj\Release\net5.0\Persistence.csproj.CopyComplete
+D:\STEP\ASP.NET.CORE\MyFinalExamWork\Infrastructure\Persistence\obj\Release\net5.0\Persistence.dll
+D:\STEP\ASP.NET.CORE\MyFinalExamWork\Infrastructure\Persistence\obj\Release\net5.0\ref\Persistence.dll
+D:\STEP\ASP.NET.CORE\MyFinalExamWork\Infrastructure\Persistence\obj\Release\net5.0\Persistence.pdb
+D:\STEP\Курсовая WEB\Infrastructure\Persistence\bin\Release\net5.0\Persistence.deps.json
+D:\STEP\Курсовая WEB\Infrastructure\Persistence\bin\Release\net5.0\Persistence.dll
+D:\STEP\Курсовая WEB\Infrastructure\Persistence\bin\Release\net5.0\ref\Persistence.dll
+D:\STEP\Курсовая WEB\Infrastructure\Persistence\bin\Release\net5.0\Persistence.pdb
+D:\STEP\Курсовая WEB\Infrastructure\Persistence\bin\Release\net5.0\Domain.dll
+D:\STEP\Курсовая WEB\Infrastructure\Persistence\bin\Release\net5.0\Domain.pdb
+D:\STEP\Курсовая WEB\Infrastructure\Persistence\obj\Release\net5.0\Persistence.csproj.AssemblyReference.cache
+D:\STEP\Курсовая WEB\Infrastructure\Persistence\obj\Release\net5.0\Persistence.GeneratedMSBuildEditorConfig.editorconfig
+D:\STEP\Курсовая WEB\Infrastructure\Persistence\obj\Release\net5.0\Persistence.AssemblyInfoInputs.cache
+D:\STEP\Курсовая WEB\Infrastructure\Persistence\obj\Release\net5.0\Persistence.AssemblyInfo.cs
+D:\STEP\Курсовая WEB\Infrastructure\Persistence\obj\Release\net5.0\Persistence.csproj.CoreCompileInputs.cache
+D:\STEP\Курсовая WEB\Infrastructure\Persistence\obj\Release\net5.0\Persistence.csproj.CopyComplete
+D:\STEP\Курсовая WEB\Infrastructure\Persistence\obj\Release\net5.0\Persistence.dll
+D:\STEP\Курсовая WEB\Infrastructure\Persistence\obj\Release\net5.0\ref\Persistence.dll
+D:\STEP\Курсовая WEB\Infrastructure\Persistence\obj\Release\net5.0\Persistence.pdb

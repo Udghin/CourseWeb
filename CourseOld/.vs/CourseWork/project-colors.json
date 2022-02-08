@@ -1,0 +1,31 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "77cb39b1-7ba4-484c-92c6-b1554399375a": {
+      "ProjectGuid": "77cb39b1-7ba4-484c-92c6-b1554399375a",
+      "DisplayName": "Api-withoutshit",
+      "ColorIndex": 0
+    },
+    "08a79a45-75c5-4c32-87b4-dd3133eefa5b": {
+      "ProjectGuid": "08a79a45-75c5-4c32-87b4-dd3133eefa5b",
+      "DisplayName": "Persistence",
+      "ColorIndex": 1
+    },
+    "e3bf679b-8689-4a7b-b86e-260e554bd65a": {
+      "ProjectGuid": "e3bf679b-8689-4a7b-b86e-260e554bd65a",
+      "DisplayName": "NoticesWithoutShit",
+      "ColorIndex": 2
+    },
+    "9332631c-86bc-47ee-a138-3c8a6b40476f": {
+      "ProjectGuid": "9332631c-86bc-47ee-a138-3c8a6b40476f",
+      "DisplayName": "Services.Abstractions",
+      "ColorIndex": 3
+    },
+    "16139905-6e54-4fdf-bef5-530a4fc6ade8": {
+      "ProjectGuid": "16139905-6e54-4fdf-bef5-530a4fc6ade8",
+      "DisplayName": "Domain",
+      "ColorIndex": 4
+    }
+  },
+  "NextColorIndex": 5
+}

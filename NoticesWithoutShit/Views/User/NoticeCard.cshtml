@@ -1,0 +1,53 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+@using Services.Abstractions.Dto.Notice;
+@model NoticeDto
+<div class="notice">
+    <p style="font-weight: bold; text-align: center;color: @Model.Color">@Model.Name</p>
+    <hr />
+    <p style="color: @Model.Color">@Model.Text;</p>
+    <p style="text-align: right">At: @Model.CreatedAt.ToString("d") || Deadline: @Model.Deadline.ToString("d")</p>
+    <div class="card-buttons">
+        <form method="post" enctype="multipart/form-data">
+            <input hidden type="text" name="id" value="@Model.Id">
+            <input hidden type="text" name="name" value="@Model.Name">
+            <input hidden type="text" name="action" value="finish">
+            @if (Model.Action == "archive")
+            {
+                <button class="btn btn-secondary" disabled>Завершить</button>
+            }
+            else
+            {
+                <button class="btn btn-secondary">Завершить</button>
+            }
+
+        </form>
+
+        <form method="post" enctype="multipart/form-data">
+            <input hidden type="text" name="id" value="@Model.Id">
+            <input hidden type="text" name="category" value="@Model.Category">
+            <input hidden type="text" name="text" value="@Model.Text">
+            <input hidden type="text" name="name" value="@Model.Name">
+            <input hidden type="date" name="deadline" value="@Model.Deadline">
+            <input hidden type="date" name="isfinished" value="@Model.IsFinished">
+            <input hidden type="date" name="isfinished" value="@Model.IsPublic">
+            <input hidden type="text" name="action" value="edit">
+            <button class="btn btn-secondary">
+                <img style="height: 38px;" src="https://icon-library.com/images/edit-icon-images/edit-icon-images-26.jpg" />
+            </button>
+        </form>
+
+        <form method="post" enctype="multipart/form-data">
+            <input hidden type="text" name="id" value="@Model.Id">
+            <input hidden type="text" name="name" value="@Model.Name">
+            <input hidden type="text" name="text" value="@Model.Text">
+            <input hidden type="text" name="Category" value="@Model.Category">
+            <input hidden type="text" name="action" value="del">
+            <button class="btn btn-secondary">Удалить</button>
+        </form>
+    </div>
+</div>

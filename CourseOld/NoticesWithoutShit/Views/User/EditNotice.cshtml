@@ -1,0 +1,73 @@
+﻿@using Services.Abstractions.Dto.Notice;
+@model NoticeAndCatsDto
+<h1 style="text-align: center;">Добавить заметку</h1>
+@{
+    string date = @Model.Notices[0].Deadline.GetDateTimeFormats()[21].Substring(0, 10);
+
+    <div class="container">
+        <form method="post" enctype="multipart/form-data">
+            <div class="mb-3">
+                <label for="firstNameInput" class="form-label">Название:</label>
+                <input type="text" name="name" class="form-control" id="nameInput" value="@Model.Notices[0].Name">
+                <input type="text" name="id" hidden class="form-control" id="nameInput" value="@Model.Notices[0].Id">
+            </div>
+            <div class="mb-3">
+                <label for="lastNameInput" class="form-label">Текст:</label>
+                <textarea type="text" rows="10" name="text" class="form-control" id="genreInput">@Model.Notices[0].Text</textarea>
+            </div>
+            <div class="add-down-line">
+                <div>
+                    <label for="deadline" class="form-label">Крайний срок выполнения:</label>
+                    <input type="date" name="deadline" id="deadline" value="@date">
+                </div>
+                <div>
+                    <label for="lastNameInput" class="form-label">Категория:</label>
+                    <select name="category">
+                        <option disabled selected>Выберите категорию</option>
+                        @foreach (var cat in Model.Categories)
+                        {
+                            if (@cat.Name == @Model.Notices[0].Category)
+                            {
+                                <option value="@cat.Name" selected>@cat.Name</option>
+                            }
+                            else
+                            {
+                                <option value="@cat.Name">@cat.Name</option>
+                            }
+                        }
+                    </select>
+                </div>
+                <div>
+                    @if (@Model.Notices[0].IsPublic)
+                    {
+                        <input type="checkbox" id="isPublic" name="ispublic" value="true" checked>
+                    }
+                    else
+                    {
+                        <input type="checkbox" id="isPublic" name="ispublic" value="true">
+                    }
+
+                    <label for="isPublic">(доступно всем)</label>
+                </div>
+                <div>
+                    @if (@Model.Notices[0].IsFinished)
+                    {
+                        <input type="checkbox" id="IsFinished" name="isfinished" value="true" checked>
+                    }
+                    else
+                    {
+                        <input type="checkbox" id="IsFinished" name="isfinished" value="true">
+                    }
+
+                    <label for="IsFinished">Выполнено</label>
+                </div>
+                <div>
+                    <label for="lastNameInput" class="form-label">Цвет:</label>
+                    <input type="color" name="color" id="countPagesInput" value="@Model.Notices[0].Color">
+                </div>
+            </div>
+            <button class="btn btn-primary">Сохранить изменения</button>
+        </form>
+
+    </div>
+}

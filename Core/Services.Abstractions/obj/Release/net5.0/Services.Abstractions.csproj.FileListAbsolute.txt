@@ -1,0 +1,30 @@
+D:\STEP\ASP.NET.CORE\MyFinalExamWork\Core\Services.Abstractions\bin\Release\net5.0\Services.Abstractions.deps.json
+D:\STEP\ASP.NET.CORE\MyFinalExamWork\Core\Services.Abstractions\bin\Release\net5.0\Services.Abstractions.dll
+D:\STEP\ASP.NET.CORE\MyFinalExamWork\Core\Services.Abstractions\bin\Release\net5.0\ref\Services.Abstractions.dll
+D:\STEP\ASP.NET.CORE\MyFinalExamWork\Core\Services.Abstractions\bin\Release\net5.0\Services.Abstractions.pdb
+D:\STEP\ASP.NET.CORE\MyFinalExamWork\Core\Services.Abstractions\bin\Release\net5.0\Domain.dll
+D:\STEP\ASP.NET.CORE\MyFinalExamWork\Core\Services.Abstractions\bin\Release\net5.0\Domain.pdb
+D:\STEP\ASP.NET.CORE\MyFinalExamWork\Core\Services.Abstractions\obj\Release\net5.0\Services.Abstractions.csproj.AssemblyReference.cache
+D:\STEP\ASP.NET.CORE\MyFinalExamWork\Core\Services.Abstractions\obj\Release\net5.0\Services.Abstractions.GeneratedMSBuildEditorConfig.editorconfig
+D:\STEP\ASP.NET.CORE\MyFinalExamWork\Core\Services.Abstractions\obj\Release\net5.0\Services.Abstractions.AssemblyInfoInputs.cache
+D:\STEP\ASP.NET.CORE\MyFinalExamWork\Core\Services.Abstractions\obj\Release\net5.0\Services.Abstractions.AssemblyInfo.cs
+D:\STEP\ASP.NET.CORE\MyFinalExamWork\Core\Services.Abstractions\obj\Release\net5.0\Services.Abstractions.csproj.CoreCompileInputs.cache
+D:\STEP\ASP.NET.CORE\MyFinalExamWork\Core\Services.Abstractions\obj\Release\net5.0\Services.Abstractions.csproj.CopyComplete
+D:\STEP\ASP.NET.CORE\MyFinalExamWork\Core\Services.Abstractions\obj\Release\net5.0\Services.Abstractions.dll
+D:\STEP\ASP.NET.CORE\MyFinalExamWork\Core\Services.Abstractions\obj\Release\net5.0\ref\Services.Abstractions.dll
+D:\STEP\ASP.NET.CORE\MyFinalExamWork\Core\Services.Abstractions\obj\Release\net5.0\Services.Abstractions.pdb
+D:\STEP\Курсовая WEB\Core\Services.Abstractions\bin\Release\net5.0\Services.Abstractions.deps.json
+D:\STEP\Курсовая WEB\Core\Services.Abstractions\bin\Release\net5.0\Services.Abstractions.dll
+D:\STEP\Курсовая WEB\Core\Services.Abstractions\bin\Release\net5.0\ref\Services.Abstractions.dll
+D:\STEP\Курсовая WEB\Core\Services.Abstractions\bin\Release\net5.0\Services.Abstractions.pdb
+D:\STEP\Курсовая WEB\Core\Services.Abstractions\bin\Release\net5.0\Domain.dll
+D:\STEP\Курсовая WEB\Core\Services.Abstractions\bin\Release\net5.0\Domain.pdb
+D:\STEP\Курсовая WEB\Core\Services.Abstractions\obj\Release\net5.0\Services.Abstractions.csproj.AssemblyReference.cache
+D:\STEP\Курсовая WEB\Core\Services.Abstractions\obj\Release\net5.0\Services.Abstractions.GeneratedMSBuildEditorConfig.editorconfig
+D:\STEP\Курсовая WEB\Core\Services.Abstractions\obj\Release\net5.0\Services.Abstractions.AssemblyInfoInputs.cache
+D:\STEP\Курсовая WEB\Core\Services.Abstractions\obj\Release\net5.0\Services.Abstractions.AssemblyInfo.cs
+D:\STEP\Курсовая WEB\Core\Services.Abstractions\obj\Release\net5.0\Services.Abstractions.csproj.CoreCompileInputs.cache
+D:\STEP\Курсовая WEB\Core\Services.Abstractions\obj\Release\net5.0\Services.Abstractions.csproj.CopyComplete
+D:\STEP\Курсовая WEB\Core\Services.Abstractions\obj\Release\net5.0\Services.Abstractions.dll
+D:\STEP\Курсовая WEB\Core\Services.Abstractions\obj\Release\net5.0\ref\Services.Abstractions.dll
+D:\STEP\Курсовая WEB\Core\Services.Abstractions\obj\Release\net5.0\Services.Abstractions.pdb

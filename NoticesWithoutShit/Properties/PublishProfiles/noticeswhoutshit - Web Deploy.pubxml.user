@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Этот файл используется процессом публикации или упаковки вашего веб-проекта. Можно настроить поведение этого процесса,
+изменив этот файл MSBuild. Подробности см. на странице https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA2UFOPpD+bEimvfs0Y1QgggAAAAACAAAAAAAQZgAAAAEAACAAAAB5RbB+ufAHCSbu0WLodAlSeO+x9Z9jESpjsNer9xCEwgAAAAAOgAAAAAIAACAAAACMrHuLkwY9Ywwlh3wRKKFXQEWZ2eYuW0lieG0RHcEobYAAAABzd4XQ1bK1x+6u3grcpNUGe7LnYL2tu8MpbODajs3cAGBLShpg+MLaTi5aCi+clj82ceXGWWzL+59Uaod3VWP2w+N/GWVGe67fVXPgXj+m9l54uxSvS+ZxdyfxXYCi302f3fFybhdvGTrqLa5yzNmTnQ9bGwYXYJ/hPxkSygU3eEAAAACe/mNgFj9mtymvaPChjGwA57CN1nwamAyouxGvo3C2KxqwF3ylxqfgqOWdAarHwKO34Nf0zEc3rj6s7qa3Nq/j</EncryptedPassword>
+    <History>True|2022-01-03T08:23:27.8639304Z;True|2022-01-02T20:11:20.5949752+02:00;</History>
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="DefaultConnection1">
+      <Value>Data Source=tcp:mynewserver666.database.windows.net,1433%3bInitial Catalog=Notices%3bUser Id=rootadmin%40mynewserver666%3bPassword=Itstep1234!</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+</Project>

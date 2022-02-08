@@ -1,0 +1,120 @@
+C:\Users\Bohdan\OneDrive\Рабочий стол\Examen\Infrastructure\Persistence\obj\Debug\net5.0\Persistence.csproj.AssemblyReference.cache
+C:\Users\Bohdan\OneDrive\Рабочий стол\Examen\Infrastructure\Persistence\obj\Debug\net5.0\Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Bohdan\OneDrive\Рабочий стол\Examen\Infrastructure\Persistence\obj\Debug\net5.0\Persistence.AssemblyInfoInputs.cache
+C:\Users\Bohdan\OneDrive\Рабочий стол\Examen\Infrastructure\Persistence\obj\Debug\net5.0\Persistence.AssemblyInfo.cs
+C:\Users\Bohdan\OneDrive\Рабочий стол\Examen\Infrastructure\Persistence\obj\Debug\net5.0\Persistence.csproj.CoreCompileInputs.cache
+C:\Users\Bohdan\OneDrive\Рабочий стол\Examen\Infrastructure\Persistence\bin\Debug\net5.0\Persistence.deps.json
+C:\Users\Bohdan\OneDrive\Рабочий стол\Examen\Infrastructure\Persistence\bin\Debug\net5.0\Persistence.dll
+C:\Users\Bohdan\OneDrive\Рабочий стол\Examen\Infrastructure\Persistence\bin\Debug\net5.0\ref\Persistence.dll
+C:\Users\Bohdan\OneDrive\Рабочий стол\Examen\Infrastructure\Persistence\bin\Debug\net5.0\Persistence.pdb
+C:\Users\Bohdan\OneDrive\Рабочий стол\Examen\Infrastructure\Persistence\bin\Debug\net5.0\Domain.dll
+C:\Users\Bohdan\OneDrive\Рабочий стол\Examen\Infrastructure\Persistence\bin\Debug\net5.0\Domain.pdb
+C:\Users\Bohdan\OneDrive\Рабочий стол\Examen\Infrastructure\Persistence\obj\Debug\net5.0\Persistence.csproj.CopyComplete
+C:\Users\Bohdan\OneDrive\Рабочий стол\Examen\Infrastructure\Persistence\obj\Debug\net5.0\Persistence.dll
+C:\Users\Bohdan\OneDrive\Рабочий стол\Examen\Infrastructure\Persistence\obj\Debug\net5.0\ref\Persistence.dll
+C:\Users\Bohdan\OneDrive\Рабочий стол\Examen\Infrastructure\Persistence\obj\Debug\net5.0\Persistence.pdb
+D:\Examen\Infrastructure\Persistence\obj\Debug\net5.0\Persistence.csproj.AssemblyReference.cache
+D:\Examen\Infrastructure\Persistence\obj\Debug\net5.0\Persistence.GeneratedMSBuildEditorConfig.editorconfig
+D:\Examen\Infrastructure\Persistence\obj\Debug\net5.0\Persistence.AssemblyInfoInputs.cache
+D:\Examen\Infrastructure\Persistence\obj\Debug\net5.0\Persistence.AssemblyInfo.cs
+D:\Examen\Infrastructure\Persistence\obj\Debug\net5.0\Persistence.csproj.CoreCompileInputs.cache
+D:\Examen\Infrastructure\Persistence\obj\Debug\net5.0\Persistence.dll
+D:\Examen\Infrastructure\Persistence\obj\Debug\net5.0\ref\Persistence.dll
+D:\Examen\Infrastructure\Persistence\obj\Debug\net5.0\Persistence.pdb
+D:\Examen\Infrastructure\Persistence\bin\Debug\net5.0\Persistence.deps.json
+D:\Examen\Infrastructure\Persistence\bin\Debug\net5.0\Persistence.dll
+D:\Examen\Infrastructure\Persistence\bin\Debug\net5.0\ref\Persistence.dll
+D:\Examen\Infrastructure\Persistence\bin\Debug\net5.0\Persistence.pdb
+D:\Examen\Infrastructure\Persistence\bin\Debug\net5.0\Domain.dll
+D:\Examen\Infrastructure\Persistence\bin\Debug\net5.0\Domain.pdb
+D:\Examen\Infrastructure\Persistence\obj\Debug\net5.0\Persistence.csproj.CopyComplete
+D:\e\Infrastructure\Persistence\obj\Debug\net5.0\Persistence.csproj.AssemblyReference.cache
+D:\e\Infrastructure\Persistence\obj\Debug\net5.0\Persistence.GeneratedMSBuildEditorConfig.editorconfig
+D:\e\Infrastructure\Persistence\obj\Debug\net5.0\Persistence.AssemblyInfoInputs.cache
+D:\e\Infrastructure\Persistence\obj\Debug\net5.0\Persistence.AssemblyInfo.cs
+D:\e\Infrastructure\Persistence\obj\Debug\net5.0\Persistence.csproj.CoreCompileInputs.cache
+D:\e\Infrastructure\Persistence\obj\Debug\net5.0\Persistence.dll
+D:\e\Infrastructure\Persistence\obj\Debug\net5.0\ref\Persistence.dll
+D:\e\Infrastructure\Persistence\obj\Debug\net5.0\Persistence.pdb
+D:\e\Infrastructure\Persistence\bin\Debug\net5.0\Persistence.deps.json
+D:\e\Infrastructure\Persistence\bin\Debug\net5.0\Persistence.dll
+D:\e\Infrastructure\Persistence\bin\Debug\net5.0\ref\Persistence.dll
+D:\e\Infrastructure\Persistence\bin\Debug\net5.0\Persistence.pdb
+D:\e\Infrastructure\Persistence\bin\Debug\net5.0\Domain.dll
+D:\e\Infrastructure\Persistence\bin\Debug\net5.0\Domain.pdb
+D:\e\Infrastructure\Persistence\obj\Debug\net5.0\Persistence.csproj.CopyComplete
+C:\Users\bogda\Desktop\e\Infrastructure\Persistence\bin\Debug\net5.0\Persistence.deps.json
+C:\Users\bogda\Desktop\e\Infrastructure\Persistence\bin\Debug\net5.0\Persistence.dll
+C:\Users\bogda\Desktop\e\Infrastructure\Persistence\bin\Debug\net5.0\ref\Persistence.dll
+C:\Users\bogda\Desktop\e\Infrastructure\Persistence\bin\Debug\net5.0\Persistence.pdb
+C:\Users\bogda\Desktop\e\Infrastructure\Persistence\bin\Debug\net5.0\Domain.dll
+C:\Users\bogda\Desktop\e\Infrastructure\Persistence\bin\Debug\net5.0\Domain.pdb
+C:\Users\bogda\Desktop\e\Infrastructure\Persistence\obj\Debug\net5.0\Persistence.csproj.AssemblyReference.cache
+C:\Users\bogda\Desktop\e\Infrastructure\Persistence\obj\Debug\net5.0\Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bogda\Desktop\e\Infrastructure\Persistence\obj\Debug\net5.0\Persistence.AssemblyInfoInputs.cache
+C:\Users\bogda\Desktop\e\Infrastructure\Persistence\obj\Debug\net5.0\Persistence.AssemblyInfo.cs
+C:\Users\bogda\Desktop\e\Infrastructure\Persistence\obj\Debug\net5.0\Persistence.csproj.CoreCompileInputs.cache
+C:\Users\bogda\Desktop\e\Infrastructure\Persistence\obj\Debug\net5.0\Persistence.csproj.CopyComplete
+C:\Users\bogda\Desktop\e\Infrastructure\Persistence\obj\Debug\net5.0\Persistence.dll
+C:\Users\bogda\Desktop\e\Infrastructure\Persistence\obj\Debug\net5.0\ref\Persistence.dll
+C:\Users\bogda\Desktop\e\Infrastructure\Persistence\obj\Debug\net5.0\Persistence.pdb
+D:\STEP\ASP.NET.CORE\MyFinalExamWork\Infrastructure\Persistence\bin\Debug\net5.0\Persistence.deps.json
+D:\STEP\ASP.NET.CORE\MyFinalExamWork\Infrastructure\Persistence\bin\Debug\net5.0\Persistence.dll
+D:\STEP\ASP.NET.CORE\MyFinalExamWork\Infrastructure\Persistence\bin\Debug\net5.0\ref\Persistence.dll
+D:\STEP\ASP.NET.CORE\MyFinalExamWork\Infrastructure\Persistence\bin\Debug\net5.0\Persistence.pdb
+D:\STEP\ASP.NET.CORE\MyFinalExamWork\Infrastructure\Persistence\bin\Debug\net5.0\Domain.dll
+D:\STEP\ASP.NET.CORE\MyFinalExamWork\Infrastructure\Persistence\bin\Debug\net5.0\Domain.pdb
+D:\STEP\ASP.NET.CORE\MyFinalExamWork\Infrastructure\Persistence\obj\Debug\net5.0\Persistence.csproj.AssemblyReference.cache
+D:\STEP\ASP.NET.CORE\MyFinalExamWork\Infrastructure\Persistence\obj\Debug\net5.0\Persistence.GeneratedMSBuildEditorConfig.editorconfig
+D:\STEP\ASP.NET.CORE\MyFinalExamWork\Infrastructure\Persistence\obj\Debug\net5.0\Persistence.AssemblyInfoInputs.cache
+D:\STEP\ASP.NET.CORE\MyFinalExamWork\Infrastructure\Persistence\obj\Debug\net5.0\Persistence.AssemblyInfo.cs
+D:\STEP\ASP.NET.CORE\MyFinalExamWork\Infrastructure\Persistence\obj\Debug\net5.0\Persistence.csproj.CoreCompileInputs.cache
+D:\STEP\ASP.NET.CORE\MyFinalExamWork\Infrastructure\Persistence\obj\Debug\net5.0\Persistence.csproj.CopyComplete
+D:\STEP\ASP.NET.CORE\MyFinalExamWork\Infrastructure\Persistence\obj\Debug\net5.0\Persistence.dll
+D:\STEP\ASP.NET.CORE\MyFinalExamWork\Infrastructure\Persistence\obj\Debug\net5.0\ref\Persistence.dll
+D:\STEP\ASP.NET.CORE\MyFinalExamWork\Infrastructure\Persistence\obj\Debug\net5.0\Persistence.pdb
+D:\STEP\Курсовая WEB\Infrastructure\Persistence\bin\Debug\net5.0\Persistence.deps.json
+D:\STEP\Курсовая WEB\Infrastructure\Persistence\bin\Debug\net5.0\Persistence.dll
+D:\STEP\Курсовая WEB\Infrastructure\Persistence\bin\Debug\net5.0\ref\Persistence.dll
+D:\STEP\Курсовая WEB\Infrastructure\Persistence\bin\Debug\net5.0\Persistence.pdb
+D:\STEP\Курсовая WEB\Infrastructure\Persistence\bin\Debug\net5.0\Domain.dll
+D:\STEP\Курсовая WEB\Infrastructure\Persistence\bin\Debug\net5.0\Domain.pdb
+D:\STEP\Курсовая WEB\Infrastructure\Persistence\obj\Debug\net5.0\Persistence.csproj.AssemblyReference.cache
+D:\STEP\Курсовая WEB\Infrastructure\Persistence\obj\Debug\net5.0\Persistence.GeneratedMSBuildEditorConfig.editorconfig
+D:\STEP\Курсовая WEB\Infrastructure\Persistence\obj\Debug\net5.0\Persistence.AssemblyInfoInputs.cache
+D:\STEP\Курсовая WEB\Infrastructure\Persistence\obj\Debug\net5.0\Persistence.AssemblyInfo.cs
+D:\STEP\Курсовая WEB\Infrastructure\Persistence\obj\Debug\net5.0\Persistence.csproj.CoreCompileInputs.cache
+D:\STEP\Курсовая WEB\Infrastructure\Persistence\obj\Debug\net5.0\Persistence.csproj.CopyComplete
+D:\STEP\Курсовая WEB\Infrastructure\Persistence\obj\Debug\net5.0\Persistence.dll
+D:\STEP\Курсовая WEB\Infrastructure\Persistence\obj\Debug\net5.0\ref\Persistence.dll
+D:\STEP\Курсовая WEB\Infrastructure\Persistence\obj\Debug\net5.0\Persistence.pdb
+C:\Users\student\Desktop\Hryhoriev\Course\Infrastructure\Persistence\bin\Debug\net5.0\Persistence.deps.json
+C:\Users\student\Desktop\Hryhoriev\Course\Infrastructure\Persistence\bin\Debug\net5.0\Persistence.dll
+C:\Users\student\Desktop\Hryhoriev\Course\Infrastructure\Persistence\bin\Debug\net5.0\ref\Persistence.dll
+C:\Users\student\Desktop\Hryhoriev\Course\Infrastructure\Persistence\bin\Debug\net5.0\Persistence.pdb
+C:\Users\student\Desktop\Hryhoriev\Course\Infrastructure\Persistence\bin\Debug\net5.0\Domain.dll
+C:\Users\student\Desktop\Hryhoriev\Course\Infrastructure\Persistence\bin\Debug\net5.0\Domain.pdb
+C:\Users\student\Desktop\Hryhoriev\Course\Infrastructure\Persistence\obj\Debug\net5.0\Persistence.csproj.AssemblyReference.cache
+C:\Users\student\Desktop\Hryhoriev\Course\Infrastructure\Persistence\obj\Debug\net5.0\Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\student\Desktop\Hryhoriev\Course\Infrastructure\Persistence\obj\Debug\net5.0\Persistence.AssemblyInfoInputs.cache
+C:\Users\student\Desktop\Hryhoriev\Course\Infrastructure\Persistence\obj\Debug\net5.0\Persistence.AssemblyInfo.cs
+C:\Users\student\Desktop\Hryhoriev\Course\Infrastructure\Persistence\obj\Debug\net5.0\Persistence.csproj.CoreCompileInputs.cache
+C:\Users\student\Desktop\Hryhoriev\Course\Infrastructure\Persistence\obj\Debug\net5.0\Persistence.csproj.CopyComplete
+C:\Users\student\Desktop\Hryhoriev\Course\Infrastructure\Persistence\obj\Debug\net5.0\Persistence.dll
+C:\Users\student\Desktop\Hryhoriev\Course\Infrastructure\Persistence\obj\Debug\net5.0\ref\Persistence.dll
+C:\Users\student\Desktop\Hryhoriev\Course\Infrastructure\Persistence\obj\Debug\net5.0\Persistence.pdb
+D:\STEP\Курсовая WEB\V2\Course\Infrastructure\Persistence\bin\Debug\net5.0\Persistence.deps.json
+D:\STEP\Курсовая WEB\V2\Course\Infrastructure\Persistence\bin\Debug\net5.0\Persistence.dll
+D:\STEP\Курсовая WEB\V2\Course\Infrastructure\Persistence\bin\Debug\net5.0\ref\Persistence.dll
+D:\STEP\Курсовая WEB\V2\Course\Infrastructure\Persistence\bin\Debug\net5.0\Persistence.pdb
+D:\STEP\Курсовая WEB\V2\Course\Infrastructure\Persistence\bin\Debug\net5.0\Domain.dll
+D:\STEP\Курсовая WEB\V2\Course\Infrastructure\Persistence\bin\Debug\net5.0\Domain.pdb
+D:\STEP\Курсовая WEB\V2\Course\Infrastructure\Persistence\obj\Debug\net5.0\Persistence.csproj.AssemblyReference.cache
+D:\STEP\Курсовая WEB\V2\Course\Infrastructure\Persistence\obj\Debug\net5.0\Persistence.GeneratedMSBuildEditorConfig.editorconfig
+D:\STEP\Курсовая WEB\V2\Course\Infrastructure\Persistence\obj\Debug\net5.0\Persistence.AssemblyInfoInputs.cache
+D:\STEP\Курсовая WEB\V2\Course\Infrastructure\Persistence\obj\Debug\net5.0\Persistence.AssemblyInfo.cs
+D:\STEP\Курсовая WEB\V2\Course\Infrastructure\Persistence\obj\Debug\net5.0\Persistence.csproj.CoreCompileInputs.cache
+D:\STEP\Курсовая WEB\V2\Course\Infrastructure\Persistence\obj\Debug\net5.0\Persistence.csproj.CopyComplete
+D:\STEP\Курсовая WEB\V2\Course\Infrastructure\Persistence\obj\Debug\net5.0\Persistence.dll
+D:\STEP\Курсовая WEB\V2\Course\Infrastructure\Persistence\obj\Debug\net5.0\ref\Persistence.dll
+D:\STEP\Курсовая WEB\V2\Course\Infrastructure\Persistence\obj\Debug\net5.0\Persistence.pdb

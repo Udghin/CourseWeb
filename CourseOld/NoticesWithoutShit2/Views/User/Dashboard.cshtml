@@ -1,0 +1,178 @@
+﻿
+@using Services.Abstractions.Dto.Notice;
+@model NoticeAndCatsDto
+@{
+    ViewData["Title"] = "Dashboard";
+}
+@{
+    int arccount = 0;
+    DateTime today = DateTime.Now;
+    @if (Model.Notices.Count > 0)
+    {
+        @foreach (var notice in Model.Notices)
+        {
+            @foreach (var cat in Model.Categories)
+            {
+                if (notice.Category == cat.Name) notice.CategoryColor = cat.Color;
+            }
+
+            if (notice.Deadline < today || notice.IsFinished == true)
+            {
+                arccount++;
+            }
+        }
+    }
+    <div class="main-frame">
+        <div class="page-name">
+            <br />
+            <h1 style="text-align: center;">Панель управления заметками!</h1>
+            <p style="text-align:center;">
+                UserID: <span class="userid" id="userid">@Model.UserId</span>&nbsp;
+                <a id="copy-id" class="copy-id" href="#"><img height="20" src="https://img2.freepng.ru/20180712/guv/kisspng-computer-icons-symbol-copying-cut-copy-and-paste-version-5b47e79ec6ab20.0376768415314390068138.jpg" /></a>
+            </p>
+            <br />
+        </div>
+        <div class="dasboard-menu">
+            <a class="nav-link text-dark" asp-controller="User" asp-action="AddNotice">Добавить заметку</a><div class="nav-link text-dark">
+                ::
+            </div>
+            <a class="nav-link text-dark" asp-controller="User" asp-action="Archive">Архив(@arccount)</a><div class="nav-link text-dark">
+                ::
+            </div>
+            <a class="nav-link text-dark" asp-controller="User" asp-action="AllToArchive">Завершить всё (перенести все заметки в архив)</a><div class="nav-link text-dark">
+                ::
+            </div>
+            <a class="nav-link text-dark" asp-controller="User" asp-action="AddNotice">Удалить все заметки</a>
+        </div>
+
+        <div class="dashboard">
+            <div class="notice-list">
+                @if (Model.Notices.Count > 0)
+                {
+                    {
+                        string precat = Model.Notices[0].Category;
+                        List<NoticeDto> tmp = new List<NoticeDto>();
+
+                        @foreach (var notice in Model.Notices)
+                        {
+                            if (notice.Category != precat)
+                            {
+                                precat = notice.Category;
+                                if (tmp.Count > 0)
+                                {
+                                    @await Html.PartialAsync("NoticeCatCard", tmp);
+                                }
+                                tmp = new List<NoticeDto>();
+                            }
+                            if (notice.Deadline >= DateTime.Now)
+                            {
+                                if (notice.IsFinished == false)
+                                    tmp.Add(notice);
+                            }
+                        }
+                        if (tmp.Count > 0)
+                        {
+                            @await Html.PartialAsync("NoticeCatCard", tmp);
+                        }
+                    }
+                }
+              
+
+            </div>
+
+            <div>
+                <div class="categoryDash">
+
+                    <p>Категории:</p>
+                    <ul>
+                        @foreach (var cats in Model.Categories)
+                        {
+                            <li>
+                                <form method="post" class="categories" enctype="multipart/form-data">
+
+                                    <label for="category" class="form-label" style="color: @cats.Color">@cats.Name</label>
+                                    <input hidden type="text" name="category" class="form-control" id="category" value="@cats.Name">
+                                    <input hidden type="text" name="userowner" class="form-control" value="@cats.Owner">
+                                    <input hidden type="text" name="id" class="form-control" value="@cats.Id">
+                                    <button type="submit">X</button>
+                                </form>
+                            </li>
+                        }
+                    </ul>
+                    <hr />
+                    <form method="post" enctype="multipart/form-data">
+                        <div class="mb-3">
+                            <label for="category" class="form-label">Категория:</label>
+                            <input type="text" name="category" class="form-control" id="category" placeholder="Введите категорию..." required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="lastNameInput" class="form-label">Цвет:</label>
+                            <input type="color" name="color" class="form-control" id="countPagesInput">
+                        </div>
+                        <button class="btn btn-primary">Добавить</button>
+                    </form>
+                </div>
+                <div></div>
+
+            </div>
+
+        </div>
+
+    </div>
+  
+}
+<script type="text/javascript">
+    document.getElementById("copy-id").addEventListener("click", function () {
+        copyToClipboard(document.getElementById("userid"));
+    });
+
+    function copyToClipboard(elem) {
+        // create hidden text element, if it doesn't already exist
+        var targetId = "_hiddenCopyText_";
+        var isInput = elem.tagName === "INPUT" || elem.tagName === "TEXTAREA";
+        var origSelectionStart, origSelectionEnd;
+        if (isInput) {
+            // can just use the original source element for the selection and copy
+            target = elem;
+            origSelectionStart = elem.selectionStart;
+            origSelectionEnd = elem.selectionEnd;
+        } else {
+            // must use a temporary form element for the selection and copy
+            target = document.getElementById(targetId);
+            if (!target) {
+                var target = document.createElement("textarea");
+                target.style.position = "absolute";
+                target.style.left = "-9999px";
+                target.style.top = "0";
+                target.id = targetId;
+                document.body.appendChild(target);
+            }
+            target.textContent = elem.textContent;
+        }
+        // select the content
+        var currentFocus = document.activeElement;
+        target.focus();
+        target.setSelectionRange(0, target.value.length);
+
+        // copy the selection
+        var succeed;
+        try {
+            succeed = document.execCommand("copy");
+        } catch (e) {
+            succeed = false;
+        }
+        // restore original focus
+        if (currentFocus && typeof currentFocus.focus === "function") {
+            currentFocus.focus();
+        }
+
+        if (isInput) {
+            // restore prior selection
+            elem.setSelectionRange(origSelectionStart, origSelectionEnd);
+        } else {
+            // clear temporary content
+            target.textContent = "";
+        }
+        return succeed;
+    }
+</script>

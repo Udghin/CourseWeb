@@ -1,0 +1,81 @@
+﻿
+@using Services.Abstractions.Dto.Notice;
+@model NoticeAndCatsDto
+@{
+    ViewData["Title"] = "Архив";
+}
+@{
+
+    int arccount = 0;
+    DateTime today = DateTime.Now;
+    @if (Model.Notices.Count > 0)
+    {
+        @foreach (var notice in Model.Notices)
+        {
+
+            if (notice.Deadline < today || notice.IsFinished == true)
+            {
+                arccount++;
+            }
+        }
+    }
+    <div class="main-frame">
+        <div class="page-name">
+            <br />
+            <h1 style="text-align: center;">Архив выполненных либо старых заметок!</h1>
+            <br />
+        </div>
+        <div class="dasboard-menu">
+            <a class="nav-link text-dark" asp-controller="User" asp-action="AddNotice">Добавить заметку</a><div class="nav-link text-dark">
+                ::
+            </div>
+            <a class="nav-link text-dark" asp-controller="User" asp-action="Archive">Архив(@arccount)</a><div class="nav-link text-dark">::</div>
+            <a class="nav-link text-dark" asp-controller="User" asp-action="Dashboard">Вернуться на Страницу Управления</a><div class="nav-link text-dark">
+                ::
+            </div>
+            <a class="nav-link text-dark" asp-controller="User" asp-action="ClearArchive">Удалить все заметки (очистить архив)</a>
+        </div>
+
+        @if (arccount > 0)
+        {
+            <div class="dashboard">
+                <div class="notice-list">
+                    @if (Model.Notices.Count > 0)
+                    {
+                        {
+                            string precat = Model.Notices[0].Category;
+                            List<NoticeDto> tmp = new List<NoticeDto>();
+
+                            @foreach (var notice in Model.Notices)
+                            {
+                                if (notice.Category != precat)
+                                {
+                                    precat = notice.Category;
+                                    if (tmp.Count > 0)
+                                        @await Html.PartialAsync("NoticeCatCard", tmp);
+                                    tmp = new List<NoticeDto>();
+                                }
+                                if (notice.Deadline < today || notice.IsFinished == true)
+                                {
+                                    notice.Action = "archive";
+                                    tmp.Add(notice);
+                                }
+                            }
+                            @await Html.PartialAsync("NoticeCatCard", tmp);
+                        }
+                    }
+
+                </div>
+
+            </div>
+        }
+        else
+        {
+            <br />
+            <br />
+            <br />
+            <br />
+            <h2 style="text-align: center">В Архиве Пусто!!!!</h2>
+        }
+    </div>
+}

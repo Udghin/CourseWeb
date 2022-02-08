@@ -1,0 +1,50 @@
+﻿@model NoticeWithoutShit.Models.Account.RegisterViewModel
+    <div class="main-frame">
+        <div style="padding: 10px; text-align:center;">
+            <h2>Регистрация нового пользователя</h2>
+            <h3>( это единственная х$*ня нашего сервиса )</h3>
+            <form method="post">
+                <div asp-validation-summary="ModelOnly"></div>
+                <div>
+                    <label asp-for="FirstName"></label><br />
+                    <input asp-for="FirstName" />
+                    <br />
+                    <span style="color: red" asp-validation-for="FirstName"></span>
+                </div>
+                <div>
+                    <label asp-for="LastName"></label><br />
+                    <input asp-for="LastName" />
+                    <br />
+                    <span style="color: red" asp-validation-for="LastName"></span>
+                </div>
+                <div>
+                    <label asp-for="PhoneNumber"></label><br />
+                    <input asp-for="PhoneNumber" />
+                    <br />
+                    <span style="color: red" asp-validation-for="PhoneNumber"></span>
+                </div>
+                <div>
+                    <label asp-for="Email"></label><br />
+                    <input asp-for="Email" />
+                    <br />
+                    <span style="color: red" asp-validation-for="Email"></span>
+                </div>
+                <div>
+                    <label asp-for="Password"></label><br />
+                    <input asp-for="Password" />
+                    <br />
+                    <span style="color: red" asp-validation-for="Password"></span>
+                </div>
+                <div>
+                    <label asp-for="PasswordConfirm"></label><br />
+                    <input asp-for="PasswordConfirm" />
+                    <br />
+                    <span style="color: red" asp-validation-for="PasswordConfirm"></span>
+                </div>
+                <div>
+                    <input type="submit" value="Регистрация" />
+                </div>
+            </form>
+        </div>
+        <p style="text-align: center"><img src="https://ipbrand.ru/upload/iblock/389/38947fd8a7b2f49bd398c374f48ebcd6.png" /></p>
+    </div>

@@ -1,0 +1,85 @@
+﻿@using Services.Abstractions.Dto.Notice;
+@model NoticeAndCatsDto
+<h1 style="text-align: center;">Добавить заметку</h1>
+
+<div class="container">
+    <form method="post" enctype="multipart/form-data">
+        <div class="mb-3">
+            <label for="firstNameInput" class="form-label">Название:</label>
+            <input type="text" name="name" class="form-control" id="nameInput" placeholder="Введите имя заметки...">
+        </div>
+        <div class="mb-3">
+            <label for="lastNameInput" class="form-label">Текст:</label>
+            @*<input type="text" rows="10" name="text" class="form-control" id="genreInput" placeholder="Введите текст заметки...">*@
+            <textarea type="text" rows="10" name="text" class="form-control" id="genreInput" placeholder="Введите текст заметки..." onclick="_SetDisabled_()"></textarea>
+        </div>
+
+
+        <div class="add-down-line">
+            <div>
+                <label for="lastNameInput" class="form-label">Крайний срок выполнения:</label>
+                @*   <input type="date" name="deadline" id="authorsInput">*@
+                <input type="date" name="deadline" id="deadline" required>
+                <span class="validity"></span>
+            </div>
+
+            <div>
+                <label for="lastNameInput" class="form-label">Категория:</label>
+                <select name="category">
+                    <option disabled selected>Выберите категорию</option>
+                    @foreach (var cat in Model.Categories)
+                    {
+                        <option value="@cat.Name">@cat.Name</option>
+                    }
+                </select>
+            </div>
+            <div>
+                <input type="checkbox" id="isPublic" name="ispublic" value="true">
+                <label for="isPublic">(доступно всем)</label>
+            </div>
+            <div>
+                <label for="lastNameInput" class="form-label">Цвет:</label>
+                <input type="color" name="color" id="countPagesInput">
+            </div>
+        </div>
+        <button class="btn btn-primary"  onclick="this.disabled = true;">Добавить</button>
+    </form>
+
+</div>
+
+@*<script>
+              document.getElementById("add-btn").onclick = btnHandler;
+
+              function btnHandler() {
+
+                  alert("dsfds");
+                  document.getElementById("deadline")
+              }
+
+
+           function _SetDisabled_()
+    {
+        alert("dsfds");
+         document.getElementById("add-btn").setAttribute('disabled', true);
+    }
+</script>*@
+
+<script>
+            $('#submit').click(function(evt) {
+              evt.preventDefault();
+
+              var payload = $('form').serialize();
+
+              $.ajax({
+                url: '@Url.Action("Create", "Buses")',
+                 type: 'POST',
+                 data: payload,
+                 success: function (result) {
+                     alert("Norm");
+                 },
+                 error: function (error) {
+                     alert("Errr");
+                 }
+              });
+            });
+</script>

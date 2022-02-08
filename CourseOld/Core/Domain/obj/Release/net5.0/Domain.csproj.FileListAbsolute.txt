@@ -1,0 +1,24 @@
+D:\STEP\ASP.NET.CORE\MyFinalExamWork\Core\Domain\bin\Release\net5.0\Domain.deps.json
+D:\STEP\ASP.NET.CORE\MyFinalExamWork\Core\Domain\bin\Release\net5.0\Domain.dll
+D:\STEP\ASP.NET.CORE\MyFinalExamWork\Core\Domain\bin\Release\net5.0\ref\Domain.dll
+D:\STEP\ASP.NET.CORE\MyFinalExamWork\Core\Domain\bin\Release\net5.0\Domain.pdb
+D:\STEP\ASP.NET.CORE\MyFinalExamWork\Core\Domain\obj\Release\net5.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\STEP\ASP.NET.CORE\MyFinalExamWork\Core\Domain\obj\Release\net5.0\Domain.AssemblyInfoInputs.cache
+D:\STEP\ASP.NET.CORE\MyFinalExamWork\Core\Domain\obj\Release\net5.0\Domain.AssemblyInfo.cs
+D:\STEP\ASP.NET.CORE\MyFinalExamWork\Core\Domain\obj\Release\net5.0\Domain.csproj.CoreCompileInputs.cache
+D:\STEP\ASP.NET.CORE\MyFinalExamWork\Core\Domain\obj\Release\net5.0\Domain.dll
+D:\STEP\ASP.NET.CORE\MyFinalExamWork\Core\Domain\obj\Release\net5.0\ref\Domain.dll
+D:\STEP\ASP.NET.CORE\MyFinalExamWork\Core\Domain\obj\Release\net5.0\Domain.pdb
+D:\STEP\ASP.NET.CORE\MyFinalExamWork\Core\Domain\obj\Release\net5.0\Domain.csproj.AssemblyReference.cache
+D:\STEP\Курсовая WEB\Core\Domain\bin\Release\net5.0\Domain.deps.json
+D:\STEP\Курсовая WEB\Core\Domain\bin\Release\net5.0\Domain.dll
+D:\STEP\Курсовая WEB\Core\Domain\bin\Release\net5.0\ref\Domain.dll
+D:\STEP\Курсовая WEB\Core\Domain\bin\Release\net5.0\Domain.pdb
+D:\STEP\Курсовая WEB\Core\Domain\obj\Release\net5.0\Domain.csproj.AssemblyReference.cache
+D:\STEP\Курсовая WEB\Core\Domain\obj\Release\net5.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\STEP\Курсовая WEB\Core\Domain\obj\Release\net5.0\Domain.AssemblyInfoInputs.cache
+D:\STEP\Курсовая WEB\Core\Domain\obj\Release\net5.0\Domain.AssemblyInfo.cs
+D:\STEP\Курсовая WEB\Core\Domain\obj\Release\net5.0\Domain.csproj.CoreCompileInputs.cache
+D:\STEP\Курсовая WEB\Core\Domain\obj\Release\net5.0\Domain.dll
+D:\STEP\Курсовая WEB\Core\Domain\obj\Release\net5.0\ref\Domain.dll
+D:\STEP\Курсовая WEB\Core\Domain\obj\Release\net5.0\Domain.pdb
