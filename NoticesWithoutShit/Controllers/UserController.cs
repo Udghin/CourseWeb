@@ -80,6 +80,24 @@ namespace NoticeWithoutShit.Controllers
         {
             var res = await _serviceManager.NoticesService.GetAllByNameAsync(User.Identity.Name);
             res.UserId = db.Users.FirstOrDefault(e => e.Email == User.Identity.Name).Id;
+            if (modelt.Action == "finish")
+            {
+                var not = await _serviceManager.NoticesService.GetByIdAsync(modelt.Id);
+                not.IsFinished = true;
+                await _serviceManager.NoticesService.Update(not);
+                return RedirectToAction("Search", new { search = modelt.Search });
+            }
+            if (modelt.Action == "del")
+            {
+                var not = await _serviceManager.NoticesService.GetByIdAsync(modelt.Id);
+                await _serviceManager.NoticesService.DeleteAsync(not.Id);
+                return RedirectToAction("Search", new { search = modelt.Search });
+            }
+            //if(model.Category != null && model.Name != null && model.Text != null)
+            if (modelt.Action == "edit")
+            {
+                return RedirectToAction("EditNotice", new { id = modelt.Id });
+            }
             if (modelt.Search != null)
             {       
                 res.Notices = res.Notices.FindAll(n => n.Text.Contains(modelt.Search)||n.Name.Contains(modelt.Search));
@@ -208,6 +226,15 @@ namespace NoticeWithoutShit.Controllers
         {
             var res = await _serviceManager.NoticesService.GetAllByNameAsync(User.Identity.Name);
             return View(res);
+        }
+        public async Task<IActionResult> DeleteAll()
+        {
+            var res = await _serviceManager.NoticesService.GetAllByNameAsync(User.Identity.Name);
+            foreach (var not in res.Notices)
+            {
+                await _serviceManager.NoticesService.DeleteAsync(not.Id);
+            }
+            return RedirectToAction("Dashboard");
         }
 
         [HttpPost]

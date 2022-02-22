@@ -8,8 +8,12 @@
 
 <div>
 <div class="noticeCat" style="background-color: @Model[0].CategoryColor">
-    <div style="border-radius: 10px;background-color: white; text-align:center; color: @Model[0].CategoryColor;font-size: 20px; font-weight: bold;margin: 10px;">@Model[0].Category</div>
-    <hr class="hr-washed">
+  
+    <div style="max-width:300px; border-radius: 10px 10px 2px 2px;background-color: white; text-align:center; color: @Model[0].CategoryColor;font-size: 20px; font-weight: bold;margin: 2px; padding-bottom: 5px; padding-left:5px;">
+      @Model[0].Category <img height="30" src="https://png2.cleanpng.com/sh/a0368291642cd1440807ed77ba2e6622/L0KzQYm3UsA0N6Z5j5H0aYP2gLBuTfRzaahuhtk2cHnxPcjojPxxaaFqip95dYPrgLr1TgRzaZ94iNN7ZX73PcH1h702aWg6UKQANkPndYjsWb4xOmE7UKQCMkG4QYi9VcA2OWk3TaUBLoDxd1==/kisspng-drawing-pin-wallpaper-pushpin-transparent-png-5a7582563de7e9.0206827215176505182536.png" />
+      
+    </div>
+
     @foreach (var notice in Model)
     {
         @await Html.PartialAsync("NoticeCard", notice);

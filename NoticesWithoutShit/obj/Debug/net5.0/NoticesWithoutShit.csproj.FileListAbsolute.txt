@@ -482,6 +482,7 @@ C:\Users\student\Desktop\Hryhoriev\Course\NoticesWithoutShit\obj\Debug\net5.0\No
 C:\Users\student\Desktop\Hryhoriev\Course\NoticesWithoutShit\obj\Debug\net5.0\NoticesWithoutShit.RazorCoreGenerate.cache
 C:\Users\student\Desktop\Hryhoriev\Course\NoticesWithoutShit\obj\Debug\net5.0\Razor\Views\Account\Login.cshtml.g.cs
 C:\Users\student\Desktop\Hryhoriev\Course\NoticesWithoutShit\obj\Debug\net5.0\Razor\Views\Account\Register.cshtml.g.cs
+C:\Users\student\Desktop\Hryhoriev\Course\NoticesWithoutShit\obj\Debug\net5.0\Razor\Views\Admin\Create.cshtml.g.cs
 C:\Users\student\Desktop\Hryhoriev\Course\NoticesWithoutShit\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
 C:\Users\student\Desktop\Hryhoriev\Course\NoticesWithoutShit\obj\Debug\net5.0\Razor\Views\Home\NoticeDetail.cshtml.g.cs
 C:\Users\student\Desktop\Hryhoriev\Course\NoticesWithoutShit\obj\Debug\net5.0\Razor\Views\Home\Privacy.cshtml.g.cs
@@ -675,6 +676,3 @@ D:\STEP\Курсовая WEB\V2\Course\NoticesWithoutShit\obj\Debug\net5.0\Notic
 D:\STEP\Курсовая WEB\V2\Course\NoticesWithoutShit\obj\Debug\net5.0\Razor\Views\Account\EditUser.cshtml.g.cs
 D:\STEP\Курсовая WEB\V2\Course\NoticesWithoutShit\obj\Debug\net5.0\Razor\Views\Admin\Index.cshtml.g.cs
 D:\STEP\Курсовая WEB\V2\Course\NoticesWithoutShit\obj\Debug\net5.0\Razor\Views\User\Search.cshtml.g.cs
-C:\Users\student\Desktop\Hryhoriev\Course\NoticesWithoutShit\obj\Debug\net5.0\Razor\Views\Account\EditUser.cshtml.g.cs
-C:\Users\student\Desktop\Hryhoriev\Course\NoticesWithoutShit\obj\Debug\net5.0\Razor\Views\Admin\Index.cshtml.g.cs
-C:\Users\student\Desktop\Hryhoriev\Course\NoticesWithoutShit\obj\Debug\net5.0\Razor\Views\User\Search.cshtml.g.cs

@@ -61,7 +61,10 @@
                                     tmp.Add(notice);
                                 }
                             }
+                            if (tmp.Count > 0)
+                            {
                             @await Html.PartialAsync("NoticeCatCard", tmp);
+                            }
                         }
                     }
 

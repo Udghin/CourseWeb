@@ -8979,19 +8979,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\student\\.nuget\\packages\\": {}
+    "C:\\Users\\bogda\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\student\\Desktop\\Hryhoriev\\Course\\NoticesWithoutShit\\NoticesWithoutShit.csproj",
+      "projectUniqueName": "D:\\STEP\\Курсовая WEB\\V2\\Course\\NoticesWithoutShit\\NoticesWithoutShit.csproj",
       "projectName": "NoticesWithoutShit",
-      "projectPath": "C:\\Users\\student\\Desktop\\Hryhoriev\\Course\\NoticesWithoutShit\\NoticesWithoutShit.csproj",
-      "packagesPath": "C:\\Users\\student\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\student\\Desktop\\Hryhoriev\\Course\\NoticesWithoutShit\\obj\\",
+      "projectPath": "D:\\STEP\\Курсовая WEB\\V2\\Course\\NoticesWithoutShit\\NoticesWithoutShit.csproj",
+      "packagesPath": "C:\\Users\\bogda\\.nuget\\packages\\",
+      "outputPath": "D:\\STEP\\Курсовая WEB\\V2\\Course\\NoticesWithoutShit\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\student\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\bogda\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -9005,17 +9005,17 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\student\\Desktop\\Hryhoriev\\Course\\Core\\Domain\\Domain.csproj": {
-              "projectPath": "C:\\Users\\student\\Desktop\\Hryhoriev\\Course\\Core\\Domain\\Domain.csproj"
+            "D:\\STEP\\Курсовая WEB\\V2\\Course\\Core\\Domain\\Domain.csproj": {
+              "projectPath": "D:\\STEP\\Курсовая WEB\\V2\\Course\\Core\\Domain\\Domain.csproj"
             },
-            "C:\\Users\\student\\Desktop\\Hryhoriev\\Course\\Core\\Services.Abstractions\\Services.Abstractions.csproj": {
-              "projectPath": "C:\\Users\\student\\Desktop\\Hryhoriev\\Course\\Core\\Services.Abstractions\\Services.Abstractions.csproj"
+            "D:\\STEP\\Курсовая WEB\\V2\\Course\\Core\\Services.Abstractions\\Services.Abstractions.csproj": {
+              "projectPath": "D:\\STEP\\Курсовая WEB\\V2\\Course\\Core\\Services.Abstractions\\Services.Abstractions.csproj"
             },
-            "C:\\Users\\student\\Desktop\\Hryhoriev\\Course\\Core\\Services\\Services.csproj": {
-              "projectPath": "C:\\Users\\student\\Desktop\\Hryhoriev\\Course\\Core\\Services\\Services.csproj"
+            "D:\\STEP\\Курсовая WEB\\V2\\Course\\Core\\Services\\Services.csproj": {
+              "projectPath": "D:\\STEP\\Курсовая WEB\\V2\\Course\\Core\\Services\\Services.csproj"
             },
-            "C:\\Users\\student\\Desktop\\Hryhoriev\\Course\\Infrastructure\\Persistence\\Persistence.csproj": {
-              "projectPath": "C:\\Users\\student\\Desktop\\Hryhoriev\\Course\\Infrastructure\\Persistence\\Persistence.csproj"
+            "D:\\STEP\\Курсовая WEB\\V2\\Course\\Infrastructure\\Persistence\\Persistence.csproj": {
+              "projectPath": "D:\\STEP\\Курсовая WEB\\V2\\Course\\Infrastructure\\Persistence\\Persistence.csproj"
             }
           }
         }
@@ -9049,12 +9049,6 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.NETCore.App.Host.win-x64",
-            "version": "[5.0.13, 5.0.13]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -9063,7 +9057,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.405\\RuntimeIdentifierGraph.json"
       }
     }
   }

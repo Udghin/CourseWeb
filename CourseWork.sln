@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.0.32112.339
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31424.327
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{4E3AAC41-B8A2-4572-88E2-E073756B6CA3}"
 EndProject
@@ -17,7 +17,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Persistence", "Infrastructu
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NoticesWithoutShit", "NoticesWithoutShit\NoticesWithoutShit.csproj", "{E3BF679B-8689-4A7B-B86E-260E554BD65A}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Api-withoutshit", "Api-withoutshit\Api-withoutshit.csproj", "{77CB39B1-7BA4-484C-92C6-B1554399375A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api-withoutshit", "Api-withoutshit\Api-withoutshit.csproj", "{77CB39B1-7BA4-484C-92C6-B1554399375A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

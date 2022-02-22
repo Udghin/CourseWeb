@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\student\\Desktop\\Hryhoriev\\Course\\Core\\Services\\Services.csproj": {}
+    "D:\\STEP\\Курсовая WEB\\V2\\Course\\Core\\Services\\Services.csproj": {}
   },
   "projects": {
-    "C:\\Users\\student\\Desktop\\Hryhoriev\\Course\\Core\\Domain\\Domain.csproj": {
+    "D:\\STEP\\Курсовая WEB\\V2\\Course\\Core\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\student\\Desktop\\Hryhoriev\\Course\\Core\\Domain\\Domain.csproj",
+        "projectUniqueName": "D:\\STEP\\Курсовая WEB\\V2\\Course\\Core\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\student\\Desktop\\Hryhoriev\\Course\\Core\\Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\student\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\student\\Desktop\\Hryhoriev\\Course\\Core\\Domain\\obj\\",
+        "projectPath": "D:\\STEP\\Курсовая WEB\\V2\\Course\\Core\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\bogda\\.nuget\\packages\\",
+        "outputPath": "D:\\STEP\\Курсовая WEB\\V2\\Course\\Core\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\student\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\bogda\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -64,21 +64,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.405\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\student\\Desktop\\Hryhoriev\\Course\\Core\\Services.Abstractions\\Services.Abstractions.csproj": {
+    "D:\\STEP\\Курсовая WEB\\V2\\Course\\Core\\Services.Abstractions\\Services.Abstractions.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\student\\Desktop\\Hryhoriev\\Course\\Core\\Services.Abstractions\\Services.Abstractions.csproj",
+        "projectUniqueName": "D:\\STEP\\Курсовая WEB\\V2\\Course\\Core\\Services.Abstractions\\Services.Abstractions.csproj",
         "projectName": "Services.Abstractions",
-        "projectPath": "C:\\Users\\student\\Desktop\\Hryhoriev\\Course\\Core\\Services.Abstractions\\Services.Abstractions.csproj",
-        "packagesPath": "C:\\Users\\student\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\student\\Desktop\\Hryhoriev\\Course\\Core\\Services.Abstractions\\obj\\",
+        "projectPath": "D:\\STEP\\Курсовая WEB\\V2\\Course\\Core\\Services.Abstractions\\Services.Abstractions.csproj",
+        "packagesPath": "C:\\Users\\bogda\\.nuget\\packages\\",
+        "outputPath": "D:\\STEP\\Курсовая WEB\\V2\\Course\\Core\\Services.Abstractions\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\student\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\bogda\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -92,8 +92,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\student\\Desktop\\Hryhoriev\\Course\\Core\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\student\\Desktop\\Hryhoriev\\Course\\Core\\Domain\\Domain.csproj"
+              "D:\\STEP\\Курсовая WEB\\V2\\Course\\Core\\Domain\\Domain.csproj": {
+                "projectPath": "D:\\STEP\\Курсовая WEB\\V2\\Course\\Core\\Domain\\Domain.csproj"
               }
             }
           }
@@ -128,21 +128,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.405\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\student\\Desktop\\Hryhoriev\\Course\\Core\\Services\\Services.csproj": {
+    "D:\\STEP\\Курсовая WEB\\V2\\Course\\Core\\Services\\Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\student\\Desktop\\Hryhoriev\\Course\\Core\\Services\\Services.csproj",
+        "projectUniqueName": "D:\\STEP\\Курсовая WEB\\V2\\Course\\Core\\Services\\Services.csproj",
         "projectName": "Services",
-        "projectPath": "C:\\Users\\student\\Desktop\\Hryhoriev\\Course\\Core\\Services\\Services.csproj",
-        "packagesPath": "C:\\Users\\student\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\student\\Desktop\\Hryhoriev\\Course\\Core\\Services\\obj\\",
+        "projectPath": "D:\\STEP\\Курсовая WEB\\V2\\Course\\Core\\Services\\Services.csproj",
+        "packagesPath": "C:\\Users\\bogda\\.nuget\\packages\\",
+        "outputPath": "D:\\STEP\\Курсовая WEB\\V2\\Course\\Core\\Services\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\student\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\bogda\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -156,11 +156,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\student\\Desktop\\Hryhoriev\\Course\\Core\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\student\\Desktop\\Hryhoriev\\Course\\Core\\Domain\\Domain.csproj"
+              "D:\\STEP\\Курсовая WEB\\V2\\Course\\Core\\Domain\\Domain.csproj": {
+                "projectPath": "D:\\STEP\\Курсовая WEB\\V2\\Course\\Core\\Domain\\Domain.csproj"
               },
-              "C:\\Users\\student\\Desktop\\Hryhoriev\\Course\\Core\\Services.Abstractions\\Services.Abstractions.csproj": {
-                "projectPath": "C:\\Users\\student\\Desktop\\Hryhoriev\\Course\\Core\\Services.Abstractions\\Services.Abstractions.csproj"
+              "D:\\STEP\\Курсовая WEB\\V2\\Course\\Core\\Services.Abstractions\\Services.Abstractions.csproj": {
+                "projectPath": "D:\\STEP\\Курсовая WEB\\V2\\Course\\Core\\Services.Abstractions\\Services.Abstractions.csproj"
               }
             }
           }
@@ -199,7 +199,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.405\\RuntimeIdentifierGraph.json"
         }
       }
     }

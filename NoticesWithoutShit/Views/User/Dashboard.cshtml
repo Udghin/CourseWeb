@@ -44,13 +44,15 @@
                         Сортировать по Дедлайну
                     </button>
                 </form>
-                <form method="post" enctype="multipart/form-data">
+                <form method="post" id="search-form" enctype="multipart/form-data">
                     <div style="display: flex;">
                         <input type="text" class="form-control" placeholder="Search..." aria-label="Username" name="Search" aria-describedby="basic-addon1">
                         <span class="input-group-text" id="basic-addon1">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
-                                <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
-                            </svg>
+                            <a href="javascript:{}" onclick="document.getElementById('search-form').submit();">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                                    <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+                                </svg>
+                                </a>
                         </span>
                     </div>
                 </form>
@@ -80,7 +82,7 @@
             &nbsp;&nbsp;<a class="btn btn-warning" asp-controller="User" asp-action="AllToArchive">Завершить всё (перенести все заметки в архив)</a><div class="nav-link text-dark">
                 ::
             </div>
-            &nbsp;&nbsp;<a class="btn btn-danger" asp-controller="User" asp-action="AddNotice">Удалить все заметки</a>
+            &nbsp;&nbsp;<a class="btn btn-danger" asp-controller="User" asp-action="DeleteAll">Удалить все заметки</a>
         </div>
 
         <div class="dashboard">

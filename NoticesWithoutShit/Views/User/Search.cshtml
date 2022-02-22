@@ -28,14 +28,16 @@
                         Сортировать по Дедлайну
                     </button>
                 </form>
-                <form method="post" enctype="multipart/form-data">
+                <form method="post" id="search-form" enctype="multipart/form-data">
                     <div style="display: flex;">
 
                         <input type="text" class="form-control" placeholder="Search..." aria-label="Username" name="Search" value="@Model.Search" aria-describedby="basic-addon1">
                         <span class="input-group-text" id="basic-addon1">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
-                                <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
-                            </svg>
+                            <a href="javascript:{}" onclick="document.getElementById('search-form').submit();">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                                    <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+                                </svg>
+                                </a>
                         </span>
                     </div>
                 </form>
@@ -72,11 +74,54 @@
 
                     @foreach (var not in Model.Notices)
                     {
-                        <li>
-                            <p style="font-weight: bold; text-align: center;">@not.Name</p>
-                            <p style="font-weight: 200; text-align: justify; padding-right:40px; ">@not.Text</p>
+                    <li>
+                        <p style="font-weight: bold; text-align: center;">@not.Name</p>
+                        <p style="font-weight: 200; text-align: justify; padding-right:40px; ">@not.Text</p>
+                        <div class="card-buttons" style="margin: auto;">
                             <p style="text-align: center;">Категория: <b>@not.Category</b> || Создано: @not.CreatedAt.ToString("d") || Дэдлайн: @not.Deadline.ToString("d")</p>
-                        </li>
+                            <div style="flex-wrap: nowrap; display: flex; margin: auto;">
+                                <form method="post" enctype="multipart/form-data">
+                                    <input hidden type="text" name="id" value="@not.Id">
+                                    <input hidden type="text" name="name" value="@not.Name">
+                                    <input hidden type="text" name="action" value="finish">
+                                    @if (not.IsFinished == true)
+                                    {
+                                        <button class="btn btn-secondary" disabled>Завершить</button>
+                                    }
+                                    else
+                                    {
+                                        <button class="btn btn-secondary">Завершить</button>
+                                    }
+                                </form>
+                                &nbsp;
+                                &nbsp;
+                                <form method="post" enctype="multipart/form-data">
+                                    <input hidden type="text" name="id" value="@not.Id">
+                                    <input hidden type="text" name="category" value="@not.Category">
+                                    <input hidden type="text" name="text" value="@not.Text">
+                                    <input hidden type="text" name="name" value="@not.Name">
+                                    <input hidden type="date" name="deadline" value="@not.Deadline">
+                                    <input hidden type="date" name="isfinished" value="@not.IsFinished">
+                                    <input hidden type="date" name="isfinished" value="@not.IsPublic">
+                                    <input hidden type="text" name="action" value="edit">
+                                    <button class="btn btn-secondary">
+                                        <img style="height: 20px;" src="https://icon-library.com/images/edit-icon-images/edit-icon-images-26.jpg" />
+                                    </button>
+                                </form>
+                                &nbsp;
+                                &nbsp;
+                                <form method="post" enctype="multipart/form-data">
+                                    <input hidden type="text" name="id" value="@not.Id">
+                                    <input hidden type="text" name="name" value="@not.Name">
+                                    <input hidden type="text" name="text" value="@not.Text">
+                                    <input hidden type="text" name="Category" value="@not.Category">
+                                    <input hidden type="text" name="action" value="del">
+                                    <button class="btn btn-secondary">Удалить</button>
+                                </form>
+                            </div>
+                        </div>
+                        <hr />
+                    </li>
                     }
                 </ul>
             }
